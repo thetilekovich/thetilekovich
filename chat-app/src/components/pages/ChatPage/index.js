@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Message from "./Message";
 import { useDispatch, useSelector } from "react-redux";
 import { ADD_DATA, INPUT_CHANGE } from "../../../redux/actions";
 import axios from "axios";
 import NoLoggedIn from "../../NoLoggedIn";
-import profileVid from '../../../assets/video/IMG_5761.MOV'
+import profileVid from "../../../assets/video/IMG_5761.MOV";
 
 function ChatPage() {
   const dispatch = useDispatch();
@@ -12,8 +12,7 @@ function ChatPage() {
   const { userName } = useSelector((state) => state.userData);
   const { chatData } = useSelector((state) => state.chatData);
   const { status } = useSelector((state) => state.userData);
-
-
+  const [count, setCount] = useState(0);
   const handleChange = (e) => {
     dispatch({ type: INPUT_CHANGE, payload: e.target.value });
   };
@@ -45,9 +44,13 @@ function ChatPage() {
     }
   };
 
+  setTimeout(
+    () => setCount(count + 1),
+    1000
+  );
   useEffect(() => {
     getData();
-  }, []);
+  }, [count]);
 
   if (status) {
     return (
@@ -62,8 +65,8 @@ function ChatPage() {
                   </svg>
                 </span>
                 <video
-                src={profileVid}
-                autoplay={true}
+                  src={profileVid}
+                  autoplay={true}
                   alt=""
                   className="w-10 sm:w-16 h-10 sm:h-16 rounded-full"
                 />

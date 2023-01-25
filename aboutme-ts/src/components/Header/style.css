@@ -1,0 +1,14 @@
+.navlinks {
+  margin: 0 25px 0 0;
+  font-size: 17px;
+  font-weight: 400;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.navlinks:last-child {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

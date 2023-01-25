@@ -1,0 +1,16 @@
+body{
+  background: #060f3d;
+  color: white;
+}
+.container{
+  width: 85%;
+  margin: auto;
+}
+.active{
+  color: #eee848;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}

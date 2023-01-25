@@ -1,0 +1,1 @@
+export const MODE_CHANGE: string = 'MODE_CHANGE'
