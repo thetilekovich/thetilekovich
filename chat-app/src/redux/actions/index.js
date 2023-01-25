@@ -1,0 +1,6 @@
+export const MODE_CHANGE = 'MODE_CHANGE'
+export const INPUT_CHANGE = 'INPUT_CHANGE'
+export const ADD_DATA = 'ADD_DATA'
+export const ADD_USERNAME = 'ADD_USERNAME'
+export const ADD_PASSWORD = 'ADD_PASSWORD'
+export const SET_STATUS = 'SET_STATUS'
