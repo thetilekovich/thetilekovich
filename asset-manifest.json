@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/thetilekovich/static/css/main.f33aeef2.css",
+    "main.js": "/thetilekovich/static/js/main.7ded40cc.js",
+    "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
+    "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
+    "static/media/service1.svg": "/thetilekovich/static/media/service1.2eb837b0e9c35ec8e955d69f2ff609f4.svg",
+    "static/media/homeimg.png": "/thetilekovich/static/media/homeimg.59d9d83ea339409998b4.png",
+    "static/media/vector2.svg": "/thetilekovich/static/media/vector2.4248bfbda7e8e25b2116c75935bced16.svg",
+    "static/media/topvector.svg": "/thetilekovich/static/media/topvector.1d6825683f0ffe3620a6ae42386213b8.svg",
+    "static/media/bottomvector.svg": "/thetilekovich/static/media/bottomvector.7e421c9f4e390deaf19100eb7fbdfd1d.svg",
+    "index.html": "/thetilekovich/index.html",
+    "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
+    "main.f33aeef2.css.map": "/thetilekovich/static/css/main.f33aeef2.css.map",
+    "main.7ded40cc.js.map": "/thetilekovich/static/js/main.7ded40cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f33aeef2.css",
+    "static/js/main.7ded40cc.js"
+  ]
+}
