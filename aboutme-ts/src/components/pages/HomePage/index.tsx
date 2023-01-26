@@ -9,6 +9,7 @@ import arrow from '../../../assets/Icons/vuesax-linear-vuesax-linear-arrow-right
 import Links from '../../Links';
 import Services from '../../Services';
 import Projects from '../../Projects';
+import Comments from '../../Comments';
 
 
 
@@ -62,6 +63,7 @@ const HomePage: React.FC = () => {
             <Links />
             <Services />
             <Projects/>
+            <Comments/>
         </section>
     );
 }
