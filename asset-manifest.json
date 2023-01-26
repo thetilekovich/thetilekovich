@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thetilekovich/static/css/main.f33aeef2.css",
-    "main.js": "/thetilekovich/static/js/main.7ded40cc.js",
+    "main.css": "/thetilekovich/static/css/main.133d3597.css",
+    "main.js": "/thetilekovich/static/js/main.629bcd43.js",
     "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
     "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
     "static/media/service1.svg": "/thetilekovich/static/media/service1.2eb837b0e9c35ec8e955d69f2ff609f4.svg",
@@ -11,11 +11,11 @@
     "static/media/bottomvector.svg": "/thetilekovich/static/media/bottomvector.7e421c9f4e390deaf19100eb7fbdfd1d.svg",
     "index.html": "/thetilekovich/index.html",
     "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
-    "main.f33aeef2.css.map": "/thetilekovich/static/css/main.f33aeef2.css.map",
-    "main.7ded40cc.js.map": "/thetilekovich/static/js/main.7ded40cc.js.map"
+    "main.133d3597.css.map": "/thetilekovich/static/css/main.133d3597.css.map",
+    "main.629bcd43.js.map": "/thetilekovich/static/js/main.629bcd43.js.map"
   },
   "entrypoints": [
-    "static/css/main.f33aeef2.css",
-    "static/js/main.7ded40cc.js"
+    "static/css/main.133d3597.css",
+    "static/js/main.629bcd43.js"
   ]
 }
