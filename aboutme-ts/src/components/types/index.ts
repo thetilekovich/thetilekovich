@@ -10,3 +10,8 @@ export interface IComment {
     job: string,
     [key: string] : any
 }
+
+export interface IAction {
+    type: string,
+    payload: any
+}
