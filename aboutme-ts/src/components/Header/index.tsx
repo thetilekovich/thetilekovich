@@ -18,10 +18,10 @@ const Header: React.FC = () => {
             <div className='container'>
                 <div className='header flex justify-between items-center py-7'>
                     <div>
-                        <Link to='/' className='font-extrabold text-2xl'>The Tilekovich</Link>
+                        <Link to='/thetilekovich' className='font-extrabold text-2xl'>The Tilekovich</Link>
                     </div>
                     <nav className='desktop_nav flex'>
-                        <NavLink className='navlinks' to='/'>Home</NavLink>
+                        <NavLink className='navlinks' to='/thetilekovich'>Home</NavLink>
                         <NavLink className='navlinks' to='/services'>Services</NavLink>
                         <NavLink className='navlinks' to='/projects'>Projects</NavLink>
                         <NavLink className='navlinks' to='/about'>About</NavLink>
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
                     </nav>
 
 
-                    
+
                     <div className='mobile_nav'>
                         <button
                             onClick={handleClick}
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
                                 display: showed ? 'flex' : 'none'
                             }}
                         >
-                            <NavLink className='navlinks' to='/'>Home</NavLink>
+                            <NavLink className='navlinks' to='/thetilekovich'>Home</NavLink>
                             <NavLink className='navlinks' to='/services'>Services</NavLink>
                             <NavLink className='navlinks' to='/projects'>Projects</NavLink>
                             <NavLink className='navlinks' to='/about'>About</NavLink>

@@ -151,6 +151,15 @@
   margin-bottom: 15px;
   -webkit-filter: blur(2px);
 }
+#home #contact {
+  position: relative;
+}
+#home #contact .contact_effect_img {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  z-index: -1;
+}
 
 @media screen and (max-width: 975px) {
   .comments_item {
@@ -248,6 +257,10 @@
     width: 100%;
     margin: auto;
   }
+  #home #contact .contact_content p {
+    font-size: 30px;
+    margin: 0 30px 0 0;
+  }
 }
 @media screen and (max-width: 500px) {
   #home .home_wellcome_item .home_title_container h2 {
@@ -295,7 +308,7 @@
     flex-direction: column;
   }
   #home #comments .comments_item_img {
-    width: 300px;
+    max-width: 200px;
     height: auto;
     margin: 0;
   }

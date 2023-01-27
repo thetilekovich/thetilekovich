@@ -10,6 +10,7 @@ import Links from '../../Links';
 import Services from '../../Services';
 import Projects from '../../Projects';
 import Comments from '../../Comments';
+import Contact from '../../Contact';
 
 
 
@@ -64,6 +65,7 @@ const HomePage: React.FC = () => {
             <Services />
             <Projects/>
             <Comments/>
+            <Contact/>
         </section>
     );
 }

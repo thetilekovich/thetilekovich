@@ -1,0 +1,13 @@
+#footer {
+  position: relative;
+  background: #091427;
+}
+#footer .footer {
+  padding: 30px 0;
+}
+#footer .footer_link {
+  margin: 0 10px;
+}
+#footer .footer_link img {
+  width: 30px;
+}/*# sourceMappingURL=style.css.map */

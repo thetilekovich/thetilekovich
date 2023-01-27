@@ -163,7 +163,18 @@
                     filter: blur(2px);
                     margin-bottom: 15px;
                     -webkit-filter: blur(2px);
-}
+                }
+            }
+        }
+    }
+    #contact {
+        position: relative;
+        .contact {
+            &_effect_img {
+                position: absolute;
+                left: 0;
+                bottom: 100px;
+                z-index: -1;
             }
         }
     }
@@ -193,6 +204,7 @@
         &_btns {
         }
     }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -300,6 +312,12 @@
                 }
             }
         }
+        #contact{
+            .contact_content p{
+                font-size: 30px;
+                margin: 0 30px 0 0;
+            }
+        }
     }
 }
 @media screen and (max-width: 500px) {
@@ -374,7 +392,7 @@
                 &_item {
                     flex-direction: column;
                     &_img {
-                        width: 300px;
+                        max-width: 200px;
                         height: auto;
                         margin: 0;
                     }

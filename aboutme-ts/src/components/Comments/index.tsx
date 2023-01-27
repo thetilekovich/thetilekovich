@@ -1,16 +1,15 @@
 import * as React from 'react';
 import { PREV_SLIDE, NEXT_SLIDE } from '../redux/actions';
 import arrow from '../../assets/Icons/vuesax-linear-vuesax-linear-arrow-right.svg'
-
 import { IComment } from '../types';
 import CommentsItem from '../CommentsItem';
 import { useSelector, useDispatch } from 'react-redux';
-const Comments : React.FC = () => {
 
+
+const Comments: React.FC = () => {
     const dispatch = useDispatch()
     const { count } = useSelector((s: { slide: { count: number } }) => s.slide)
     const { comments } = useSelector((s: { slide: { comments: IComment[] } }) => s.slide)
-
 
 
     return (
