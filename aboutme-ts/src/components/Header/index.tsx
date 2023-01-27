@@ -27,6 +27,9 @@ const Header: React.FC = () => {
                         <NavLink className='navlinks' to='/about'>About</NavLink>
                         <NavLink className='navlinks' to='/contact'>Contact</NavLink>
                     </nav>
+
+
+                    
                     <div className='mobile_nav'>
                         <button
                             onClick={handleClick}

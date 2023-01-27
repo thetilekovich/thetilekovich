@@ -105,6 +105,7 @@
             &_item {
                 width: 100%;
                 &_img {
+                    max-width: 300px;
                     height: auto;
                     margin: 0 50px 0 0;
                 }
@@ -159,8 +160,10 @@
                 }
                 &_animation {
                     width: 25px;
+                    filter: blur(2px);
                     margin-bottom: 15px;
-                }
+                    -webkit-filter: blur(2px);
+}
             }
         }
     }

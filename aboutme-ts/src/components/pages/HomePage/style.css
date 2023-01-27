@@ -94,6 +94,7 @@
   width: 100%;
 }
 #home #comments .comments_item_img {
+  max-width: 300px;
   height: auto;
   margin: 0 50px 0 0;
 }
@@ -146,7 +147,9 @@
 }
 #home #comments .comments_btns_animation {
   width: 25px;
+  filter: blur(2px);
   margin-bottom: 15px;
+  -webkit-filter: blur(2px);
 }
 
 @media screen and (max-width: 975px) {
