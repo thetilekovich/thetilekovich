@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/thetilekovich/static/css/main.f39cf247.css",
+    "main.css": "/thetilekovich/static/css/main.cffb153a.css",
     "main.js": "/thetilekovich/static/js/main.b2db30b3.js",
     "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
     "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
@@ -12,11 +12,11 @@
     "static/media/bottomvector.svg": "/thetilekovich/static/media/bottomvector.7e421c9f4e390deaf19100eb7fbdfd1d.svg",
     "index.html": "/thetilekovich/index.html",
     "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
-    "main.f39cf247.css.map": "/thetilekovich/static/css/main.f39cf247.css.map",
+    "main.cffb153a.css.map": "/thetilekovich/static/css/main.cffb153a.css.map",
     "main.b2db30b3.js.map": "/thetilekovich/static/js/main.b2db30b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f39cf247.css",
+    "static/css/main.cffb153a.css",
     "static/js/main.b2db30b3.js"
   ]
 }
