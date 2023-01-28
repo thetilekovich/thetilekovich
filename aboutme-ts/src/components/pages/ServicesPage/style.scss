@@ -99,7 +99,7 @@
                     
                     &_service {
                         flex-direction: column;
-                        align-items: flex-start;
+                        align-items: center;
                         &_item {
                             
                             img {
@@ -109,12 +109,17 @@
                             h1 {
                                 font-size: 20px;
                                 font-weight: 700;
+                                text-align: center;
+                            }
+                            ul{
+                                text-align: center;
                             }
                             p {
                                 font-size: 13px;
                                 font-weight: 300;
                                 line-height: auto;
                                 max-width: 450px;
+                                text-align: center;
                             }
                         }
                     }

@@ -16,11 +16,11 @@ const Services: React.FC = () => {
                     </div>
                     <div>
                         <div className='services_item'>
-                            <Link to='/' className='flex items-center justify-between'>
+                            <Link to='/services' className='flex items-center justify-between'>
                                 <div className='flex items-center'>
                                     <img className='services_item_img1 rounded-md w-14 mr-8' src={img1} alt="" />
                                     <div className='mr-8'>
-                                        <h2 className='font-bold text-2xl'>Website for your bussiness</h2>
+                                        <h2 className='font-bold text-2xl'>Website developing</h2>
                                         <p className='text-gray-400'>10+ Project</p>
                                     </div>
                                 </div>
@@ -31,11 +31,11 @@ const Services: React.FC = () => {
                             </Link>
                         </div>
                         <div className='services_item'>
-                            <Link to='/' className='flex items-center justify-between'>
+                            <Link to='/services' className='flex items-center justify-between'>
                                 <div className='flex items-center'>
                                     <img className='services_item_img1 rounded-md w-14 mr-8' src={img2} alt="" />
                                     <div className='mr-8'>
-                                        <h2 className='font-bold text-2xl'>Optimazing codes </h2>
+                                        <h2 className='font-bold text-2xl'>Optimazing codes</h2>
                                         <p className='text-gray-400'>10+ Project</p>
                                     </div>
                                 </div>

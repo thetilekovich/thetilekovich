@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
                     <header className='flex justify-between items-center'>
                         <h1 className='text-3xl font-bold mb-6'>My Portfolio</h1>
                         <div className='flex items-center'>
-                            <Link className="mr-3" to='/'>See all</Link>
+                            <Link className="mr-3" to='/projects'>See all</Link>
                             <img className='w-5' src={arrow} alt="" />
                         </div>
                     </header>

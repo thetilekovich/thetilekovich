@@ -76,7 +76,7 @@
 @media screen and (max-width: 570px) {
   #servicespage .servicespage .services_global_items_service {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   #servicespage .servicespage .services_global_items_service_item img {
     margin: 0 0 30px 0;
@@ -85,11 +85,16 @@
   #servicespage .servicespage .services_global_items_service_item h1 {
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
+  }
+  #servicespage .servicespage .services_global_items_service_item ul {
+    text-align: center;
   }
   #servicespage .servicespage .services_global_items_service_item p {
     font-size: 13px;
     font-weight: 300;
     line-height: auto;
     max-width: 450px;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
