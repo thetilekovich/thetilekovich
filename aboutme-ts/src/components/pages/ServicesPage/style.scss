@@ -1,0 +1,125 @@
+#servicespage {
+    .servicespage {
+        padding: 30px 0;
+        &_title {
+            font-weight: 900;
+            font-size: 35px;
+            text-align: center;
+            margin: 0 0 30px 0;
+        }
+        .services_global {
+            &_items {
+                margin: 0 0 50px;
+                &_service {
+                    display: flex;
+                    border: 1px solid white;
+                    border-radius: 15px;
+                    padding: 30px;
+                    -webkit-border-radius: 15px;
+                    -moz-border-radius: 15px;
+                    -ms-border-radius: 15px;
+                    -o-border-radius: 15px;
+                    margin: 20px 0;
+                    align-items: center;
+                    &_item {
+                        img {
+                            margin: 0 100px 0 0;
+                            width: 180px;
+                            border-radius: 10px;
+                            -webkit-border-radius: 10px;
+                            -moz-border-radius: 10px;
+                            -ms-border-radius: 10px;
+                            -o-border-radius: 10px;
+                        }
+                        h1 {
+                            font-size: 25px;
+                            font-weight: 700;
+                            color: rgb(255, 255, 255);
+                        }
+                        p {
+                            margin: 10px 0;
+                            font-weight: 500;
+                            line-height: 20px;
+                            color: rgb(184, 181, 181);
+                            max-width: 500px;
+                        }
+                        ul {
+                            margin: 0 0 0 20px;
+                            list-style-type: disc;
+                            font-size: 14px;
+                            color: rgb(206, 125, 3);
+                            span {
+                                font-weight: 400;
+                                color: rgb(255, 153, 0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 725px) {
+    #servicespage {
+        .servicespage {
+            &_title {
+                font-size: 30px;
+            }
+            .services_global {
+                &_items {
+                    &_service {
+                        &_item {
+                            img {
+                                margin: 0 150px 0 0;
+                                width: 180px;
+                            }
+                            h1 {
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                            p {
+                                font-size: 13px;
+                                font-weight: 300;
+                                line-height: auto;
+                                max-width: 400px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 570px) {
+    #servicespage {
+        .servicespage {
+            .services_global {
+                &_items {
+                    
+                    &_service {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        &_item {
+                            
+                            img {
+                                margin: 0 0 30px 0;
+                                width: 180px;
+                            }
+                            h1 {
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                            p {
+                                font-size: 13px;
+                                font-weight: 300;
+                                line-height: auto;
+                                max-width: 450px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
