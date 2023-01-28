@@ -89,6 +89,7 @@
   }
   #servicespage .servicespage .services_global_items_service_item ul {
     text-align: center;
+    list-style: none;
   }
   #servicespage .servicespage .services_global_items_service_item p {
     font-size: 13px;

@@ -86,6 +86,7 @@
   #projectspage .projectspage .projects_global_item_text ul {
     margin: 5px 0 10px 0;
     text-align: center;
+    list-style: none;
   }
   #projectspage .projectspage .projects_global_item_text p {
     text-align: center;
