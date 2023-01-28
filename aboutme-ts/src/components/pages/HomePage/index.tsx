@@ -48,10 +48,10 @@ const HomePage: React.FC = () => {
                     <div className='home_info'>
                         <div className='home_info_item'>
                             <h3>Years of Experience</h3>
-                            <h1>1+</h1>
+                            <h1>0+</h1>
                         </div>
                         <div className='home_info_item'>
-                            <h3>Complete Project</h3>
+                            <h3>Completed Project</h3>
                             <h1>5+</h1>
                         </div>
                         <div className='home_info_item'>

@@ -1,6 +1,7 @@
 import * as React from 'react';
+import './style.css'
 
-const AboutPage = () => {
+const AboutPage: React.FC = () => {
     return (
         <section id='aboutpage'>
             <div className='container'>

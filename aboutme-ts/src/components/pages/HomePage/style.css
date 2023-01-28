@@ -242,13 +242,7 @@
     width: 200px;
   }
   #home .home_info_item {
-    margin: 0 20px;
-  }
-  #home .home_info_item h3 {
-    font-size: 15px;
-  }
-  #home .home_info_item h1 {
-    font-size: 30px;
+    margin: 0 20px 0 0;
   }
   #home #links .links_item {
     font-size: 17px;
@@ -274,12 +268,6 @@
   }
   #home .home_wellcome_item .home_title_container_link {
     font-size: 13px;
-  }
-  #home .home_info_item h3 {
-    font-size: 12px;
-  }
-  #home .home_info_item h1 {
-    font-size: 22px;
   }
   #home #services .services_title_container h1 {
     font-size: 25px;
