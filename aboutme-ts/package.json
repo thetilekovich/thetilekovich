@@ -1,7 +1,7 @@
 {
   "name": "aboutme-ts",
   "version": "0.1.0",
-  "homepage": "https://thetilekovich.github.io/thetilekovich",
+  "homepage": "https://IzatTilekuuluIT/.github.io/thetilekovich",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
