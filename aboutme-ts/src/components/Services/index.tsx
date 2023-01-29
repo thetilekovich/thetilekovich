@@ -5,6 +5,9 @@ import img2 from '../../assets/Images/service2.svg'
 import img3 from '../../assets/Images/service3.svg'
 import arrow from '../../assets/Icons/vuesax-linear-vuesax-linear-arrow-right.svg'
 import { useSelector } from 'react-redux';
+
+
+
 const Services: React.FC = () => {
     const { language } = useSelector((s: { language: { language: string } }) => s.language)
     return (
@@ -21,8 +24,8 @@ const Services: React.FC = () => {
                                 <div className='flex items-center'>
                                     <img className='services_item_img1 rounded-md w-14 mr-8' src={img1} alt="" />
                                     <div className='mr-8'>
-                                        <h2 className='font-bold text-2xl'>Single Page developing</h2>
-                                        <p className='text-gray-400'>10+ Project</p>
+                                        <h2 className='font-bold text-2xl'>{language === 'ru' ? 'Одностраничные сайты' : 'Single Page developing'}</h2>
+                                        <p className='text-gray-400'>10+ {language === 'ru' ? ' Проектов' : 'Projects'}</p>
                                     </div>
                                 </div>
 
@@ -36,8 +39,8 @@ const Services: React.FC = () => {
                                 <div className='flex items-center'>
                                     <img className='services_item_img1 rounded-md w-14 mr-8' src={img2} alt="" />
                                     <div className='mr-8'>
-                                        <h2 className='font-bold text-2xl'>Optimazing codes</h2>
-                                        <p className='text-gray-400'>10+ Project</p>
+                                        <h2 className='font-bold text-2xl'>{language === 'ru' ? 'Оптимизация' : 'Optimazing codes'}</h2>
+                                        <p className='text-gray-400'>10+ Project{language === 'ru' ? ' Проектов' : ' Projects'}</p>
                                     </div>
                                 </div>
 
@@ -51,8 +54,8 @@ const Services: React.FC = () => {
                                 <div className='flex items-center'>
                                     <img className='services_item_img1 rounded-md w-14 mr-8' src={img3} alt="" />
                                     <div className='mr-8'>
-                                        <h2 className='font-bold text-2xl'>Correct existing site </h2>
-                                        <p className='text-gray-400'>10+ Project</p>
+                                        <h2 className='font-bold text-2xl'>{language === 'ru' ? 'Обновления существуещего' : 'Correct existing site'}</h2>
+                                        <p className='text-gray-400'>10+ {language === 'ru' ? ' Проектов' : ' Projects'}</p>
                                     </div>
                                 </div>
 

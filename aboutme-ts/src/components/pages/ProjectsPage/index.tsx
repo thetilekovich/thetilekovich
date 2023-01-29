@@ -11,14 +11,14 @@ const ProjectsPage: React.FC = () => {
                 <div className='projectspage'>
                     <h1 className='projectspage_title'>{language === 'ru' ? 'Проекты' : 'Projects'}</h1>
                     <div className='projects_global'>
-                        <ProjectItem projectTitle='Weather app' iframe='https://thetilekovich.github.io/weather' code='https://github.com/thetilekovich/weather'>
+                        <ProjectItem projectTitle={language === 'ru' ? 'Погода' : 'Weather app'} iframe='https://thetilekovich.github.io/weather' code='https://github.com/thetilekovich/weather'>
                             <ul>
                                 <li>React.js</li>
                                 <li>Free API</li>
                                 <li>Figma</li>
                             </ul>
                         </ProjectItem>
-                        <ProjectItem projectTitle='Million movies and TV shows' iframe='https://thetilekovich.github.io/twtm' code='https://github.com/thetilekovich/twtm'>
+                        <ProjectItem projectTitle={language === 'ru' ? 'Фильмы и ТВ шоу' : 'Million movies and TV shows'} iframe='https://thetilekovich.github.io/twtm' code='https://github.com/thetilekovich/twtm'>
                             <ul>
                                 <li>React & Redux</li>
                                 <li><span>themoviedb.com</span> - free database</li>
@@ -27,7 +27,7 @@ const ProjectsPage: React.FC = () => {
                             </ul>
                         </ProjectItem>
 
-                        <ProjectItem projectTitle='Personal website' iframe='https://thetilekovich.github.io/thetilekovich' code='https://github.com/thetilekovich/thetilekovich'>
+                        <ProjectItem projectTitle={language === 'ru' ? 'Персональный сайт' : 'Personal website'} iframe='https://thetilekovich.github.io/thetilekovich' code='https://github.com/thetilekovich/thetilekovich'>
                             <ul>
                                 <li>React & Redux</li>
                                 <li>TypeScript</li>
@@ -42,7 +42,7 @@ const ProjectsPage: React.FC = () => {
                                 <li> <span>MockAPI</span> - free API</li>
                             </ul>
                         </ProjectItem>
-                        <ProjectItem projectTitle='Calculcator' iframe='https://thetilekovich.github.io/iphone_calculator' code='https://github.com/thetilekovich/iphone_calculator'>
+                        <ProjectItem projectTitle={language === 'ru' ? 'Калкульятор' :'Calculcator'} iframe='https://thetilekovich.github.io/iphone_calculator' code='https://github.com/thetilekovich/iphone_calculator'>
                             <ul>
                                 <li>HTML5 & CSS3</li>
                                 <li>JavaScript & ES6+</li>

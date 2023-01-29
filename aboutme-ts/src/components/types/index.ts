@@ -19,5 +19,6 @@ export interface IAction {
 
 
 export interface ILanguage{
-    language: string
+    language: string,
+    showChose: boolean
 }

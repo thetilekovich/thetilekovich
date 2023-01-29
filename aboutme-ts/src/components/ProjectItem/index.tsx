@@ -18,7 +18,7 @@ const ProjectItem: FC<IProjectItemProps> = ({ children, iframe, code, projectTit
             <div className='projects_global_item_text'>
                 <div>
                     <h1>{projectTitle}</h1>
-                    <p>Technologies:</p>
+                    <p>{language === 'ru' ? 'Технологии': 'Technologies'}:</p>
                     { children}
                 </div>
                 <div className='projects_global_item_text_link flex justify-between'>
