@@ -106,16 +106,21 @@
                         background: rgb(14, 13, 13);
                         padding: 10px;
                         margin: 10px 0;
+                        font-size: 17px;
                     }
                     input {
                         margin: 10px 0;
-                        padding: 5px 10px;
+                        padding: 10px 15px;
+                        font-size: 18px;
                         background: rgb(23, 23, 23);
                     }
                     button {
                         background: rgb(33, 33, 33);
-                        width: 100px;
-                        padding: 5px 10px;
+                        width: 130px;
+                        font-size: 20px;
+                        font-weight: 700;
+                        padding: 8px 10px;
+                        margin: 20px 0 0 0;
                     }
                 }
             }
@@ -176,10 +181,6 @@
                         &_item1 {
                             margin: 0;
                         }
-                    }
-                    &_comment{
-                        align-self: flex-end;
-                        max-width: 400px;
                     }
                 }
             }

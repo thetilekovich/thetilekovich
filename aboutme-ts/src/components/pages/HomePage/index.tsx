@@ -1,5 +1,5 @@
 import * as React from 'react';
-import profile from '../../../assets/Images/homeimg.png'
+import profile from '../../../assets/Images/profileFun.jpg'
 import './style.css'
 import { Link } from 'react-router-dom';
 import topEffect from '../../../assets/Images/topvector.svg'
@@ -34,12 +34,12 @@ const HomePage: React.FC = () => {
                                 Ut blandit fermentum, cursus nulla. Imperdiet neque mi convallis quis interdum sagittis.
                             </p>
                             <div className='flex items-center'>
-                                <Link className='home_title_container_link mr-2' to='/community'>Let's Talk</Link>
-                                <img className='w-4' src={arrow} alt="" />
+                                <Link className='home_title_container_link mr-2' to='/contacts'>Let's Talk</Link>
+                                <img  className='w-4' src={arrow} alt="" />
                             </div>
                         </div>
                         <div className='home_profile_img w-80'>
-                            <img className='w-full mx-10' src={profile} alt="" />
+                            <img className='w-full mx-10 rounded-xl' src={profile} alt="" />
                         </div>
                     </div>
 
