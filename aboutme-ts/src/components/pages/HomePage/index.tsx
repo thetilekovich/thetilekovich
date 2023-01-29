@@ -14,9 +14,6 @@ import Contact from '../../Contact';
 
 const HomePage: React.FC = () => {
 
-
-
-
     return (
         <section id='home'>
             <img className='effect_img' src={topEffect} alt="" />
@@ -27,7 +24,7 @@ const HomePage: React.FC = () => {
                 <div className='home flex justify-between items-center py-10    '>
                     <div className='home_wellcome_item flex justify-between items-center'>
                         <div className='home_title_container'>
-                            <h2 className='text-gray-400 text-bold text-3xl mb-5'>Frontend Developer</h2>
+                            <h2 className='text-gray-400 text-bold text-3xl mb-5'>Frontend Engeneer</h2>
                             <h1 className='font-extrabold text-6xl'>Tilek uulu Izat</h1>
                             <div className='w-1/2 my-16 bg-white h-1'></div>
                             <p className='max-w-xs text-gray-500 mb-24'>
@@ -46,7 +43,7 @@ const HomePage: React.FC = () => {
                     <div className='home_info'>
                         <div className='home_info_item'>
                             <h3>Years of Experience</h3>
-                            <h1>0+</h1>
+                            <h1>0.8+</h1>
                         </div>
                         <div className='home_info_item'>
                             <h3>Completed Project</h3>

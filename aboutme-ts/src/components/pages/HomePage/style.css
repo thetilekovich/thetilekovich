@@ -121,11 +121,11 @@
   position: relative;
 }
 #home #comments .comments_item_bottom_author h2 {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 700;
-  margin: 5px 0;
 }
 #home #comments .comments_item_bottom_author h3 {
+  font-size: 23px;
   color: #868490;
   font-weight: 300;
 }

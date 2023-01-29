@@ -47,7 +47,7 @@ const AboutPage: React.FC = () => {
                         <div className='about_gen_info_right flex'>
                             <div className='about_gen_info_content'>
                                 <h1>{language === 'ru' ? 'Изат Тилек уулу' : 'Izat Tilek uulu'}</h1>
-                                <p>{language === 'ru' ? 'Frontend разработчик' : 'Frontend Developer'}</p>
+                                <p>{language === 'ru' ? 'Frontend разработчик' : 'Frontend Engeneer'}</p>
                                 <ul>
                                     <li> <span>{language === 'ru' ? 'Дата рождения' : 'Birth date'} : </span>{language === 'ru' ? '7-Август 2003' : '7-August 2003'} ( 20 )</li>
                                     <li> <span>{language === 'ru' ? 'Место рождения' : 'Birth country'} : </span>{language === 'ru' ? 'Кыргызстан' : 'Kyrgyzstan'}</li>
