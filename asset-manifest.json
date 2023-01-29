@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/thetilekovich/static/css/main.6fac11f6.css",
+    "main.css": "/thetilekovich/static/css/main.357dbca9.css",
     "main.js": "/thetilekovich/static/js/main.527aca9c.js",
     "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
     "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
@@ -23,11 +23,11 @@
     "index.html": "/thetilekovich/index.html",
     "static/media/icon-instagram.svg": "/thetilekovich/static/media/icon-instagram.1890d760ddf1b621b1a2f92b4d3008b7.svg",
     "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
-    "main.6fac11f6.css.map": "/thetilekovich/static/css/main.6fac11f6.css.map",
+    "main.357dbca9.css.map": "/thetilekovich/static/css/main.357dbca9.css.map",
     "main.527aca9c.js.map": "/thetilekovich/static/js/main.527aca9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fac11f6.css",
+    "static/css/main.357dbca9.css",
     "static/js/main.527aca9c.js"
   ]
 }
