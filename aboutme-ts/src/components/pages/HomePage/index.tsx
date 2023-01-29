@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
                             <h1 className='font-extrabold text-6xl'>Tilek uulu Izat</h1>
                             <div className='w-1/2 my-16 bg-white h-1'></div>
                             <p className='max-w-xs text-gray-500 mb-24'>
-                                Ut blandit fermentum, cursus nulla. Imperdiet neque mi convallis quis interdum sagittis.
+                                Nothing is more important in life than the answer to the question of what do you do?
                             </p>
                             <div className='flex items-center'>
                                 <Link className='home_title_container_link mr-2' to='/contacts'>Let's Talk</Link>
