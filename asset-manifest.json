@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thetilekovich/static/css/main.c4c2b67b.css",
-    "main.js": "/thetilekovich/static/js/main.6bd08606.js",
+    "main.js": "/thetilekovich/static/js/main.9391ca96.js",
     "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
     "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
     "static/media/service1.svg": "/thetilekovich/static/media/service1.2eb837b0e9c35ec8e955d69f2ff609f4.svg",
@@ -24,10 +24,10 @@
     "static/media/icon-instagram.svg": "/thetilekovich/static/media/icon-instagram.1890d760ddf1b621b1a2f92b4d3008b7.svg",
     "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
     "main.c4c2b67b.css.map": "/thetilekovich/static/css/main.c4c2b67b.css.map",
-    "main.6bd08606.js.map": "/thetilekovich/static/js/main.6bd08606.js.map"
+    "main.9391ca96.js.map": "/thetilekovich/static/js/main.9391ca96.js.map"
   },
   "entrypoints": [
     "static/css/main.c4c2b67b.css",
-    "static/js/main.6bd08606.js"
+    "static/js/main.9391ca96.js"
   ]
 }
