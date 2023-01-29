@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/thetilekovich/static/css/main.357dbca9.css",
-    "main.js": "/thetilekovich/static/js/main.527aca9c.js",
+    "main.css": "/thetilekovich/static/css/main.9e49cf97.css",
+    "main.js": "/thetilekovich/static/js/main.177da3a3.js",
     "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
     "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
     "static/media/service1.svg": "/thetilekovich/static/media/service1.2eb837b0e9c35ec8e955d69f2ff609f4.svg",
-    "static/media/homeimg.png": "/thetilekovich/static/media/homeimg.59d9d83ea339409998b4.png",
     "static/media/footer.png": "/thetilekovich/static/media/footer.2ff908531d3ecce639cd.png",
     "static/media/moscow.jpg": "/thetilekovich/static/media/moscow.11a61088f7cee205b99a.jpg",
     "static/media/seo.jpg": "/thetilekovich/static/media/seo.f9556f6877eddc563299.jpg",
     "static/media/optimization.jpg": "/thetilekovich/static/media/optimization.d08ffd012c6af95c0bed.jpg",
     "static/media/adaptive.jpg": "/thetilekovich/static/media/adaptive.6f4c8d297be2dc1df3d2.jpg",
     "static/media/creatweb.jpg": "/thetilekovich/static/media/creatweb.94df469fa55c5ee43cc4.jpg",
+    "static/media/profileFun.jpg": "/thetilekovich/static/media/profileFun.6ef53a0e2f5522eb5d52.jpg",
     "static/media/icon-Union.svg": "/thetilekovich/static/media/icon-Union.4e30f29e5afcfede15d99331f583dd2d.svg",
     "static/media/icon-slack.svg": "/thetilekovich/static/media/icon-slack.6ac37b2539e2f010154fbce3b20452fe.svg",
     "static/media/vector2.svg": "/thetilekovich/static/media/vector2.4248bfbda7e8e25b2116c75935bced16.svg",
@@ -23,11 +23,11 @@
     "index.html": "/thetilekovich/index.html",
     "static/media/icon-instagram.svg": "/thetilekovich/static/media/icon-instagram.1890d760ddf1b621b1a2f92b4d3008b7.svg",
     "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
-    "main.357dbca9.css.map": "/thetilekovich/static/css/main.357dbca9.css.map",
-    "main.527aca9c.js.map": "/thetilekovich/static/js/main.527aca9c.js.map"
+    "main.9e49cf97.css.map": "/thetilekovich/static/css/main.9e49cf97.css.map",
+    "main.177da3a3.js.map": "/thetilekovich/static/js/main.177da3a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.357dbca9.css",
-    "static/js/main.527aca9c.js"
+    "static/css/main.9e49cf97.css",
+    "static/js/main.177da3a3.js"
   ]
 }
