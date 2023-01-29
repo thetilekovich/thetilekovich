@@ -1,7 +1,9 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 const Links: React.FC = () => {
+
     return (
         <section id='links'>
             <div className='links_effect'>

@@ -1,13 +1,15 @@
 import * as React from 'react';
 import './style.css'
 import ProjectItem from '../../ProjectItem';
-
+import { useSelector } from 'react-redux';
 const ProjectsPage: React.FC = () => {
+    const { language } = useSelector((s: { language: { language: string } }) => s.language)
+
     return (
         <section id='projectspage'>
             <div className='container'>
                 <div className='projectspage'>
-                    <h1 className='projectspage_title'>Projects</h1>
+                    <h1 className='projectspage_title'>{language === 'ru' ? 'Проекты' : 'Projects'}</h1>
                     <div className='projects_global'>
                         <ProjectItem projectTitle='Weather app' iframe='https://thetilekovich.github.io/weather' code='https://github.com/thetilekovich/weather'>
                             <ul>

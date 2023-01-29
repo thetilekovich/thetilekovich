@@ -6,6 +6,8 @@ import { SHOW_MENU } from '../redux/actions';
 
 const Header: React.FC = () => {
     const { showed } = useSelector((s: {menu: {showed: boolean}}) => s.menu)
+    const { language } = useSelector((s: { language: { language: string } }) => s.language)
+
     const dispatch = useDispatch()
 
     const handleClick = () => {
@@ -21,11 +23,11 @@ const Header: React.FC = () => {
                         <Link to='/thetilekovich' className='font-extrabold text-2xl'>The Tilekovich</Link>
                     </div>
                     <nav className='desktop_nav flex'>
-                        <NavLink className='navlinks' to='/thetilekovich'>Home</NavLink>
-                        <NavLink className='navlinks' to='/services'>Services</NavLink>
-                        <NavLink className='navlinks' to='/projects'>Projects</NavLink>
-                        <NavLink className='navlinks' to='/about'>About</NavLink>
-                        <NavLink className='navlinks' to='/contacts'>Contact</NavLink>
+                        <NavLink className='navlinks' to='/thetilekovich'>{language === 'ru' ? 'Домой' : 'Home'}</NavLink>
+                        <NavLink className='navlinks' to='/services'> {language === 'ru' ? 'Услуги' : 'Services'}</NavLink>
+                        <NavLink className='navlinks' to='/projects'>{language === 'ru' ? 'Проекты' : 'Projects'}</NavLink>
+                        <NavLink className='navlinks' to='/about'>{language === 'ru' ? 'Обо мне' : 'About'}</NavLink>
+                        <NavLink className='navlinks' to='/contacts'>{language === 'ru' ? 'Контакты' : 'Contact'}</NavLink>
                     </nav>
 
 
@@ -43,11 +45,11 @@ const Header: React.FC = () => {
                                 display: showed ? 'flex' : 'none'
                             }}
                         >
-                            <NavLink className='navlinks' to='/thetilekovich'>Home</NavLink>
-                            <NavLink className='navlinks' to='/services'>Services</NavLink>
-                            <NavLink className='navlinks' to='/projects'>Projects</NavLink>
-                            <NavLink className='navlinks' to='/about'>About</NavLink>
-                            <NavLink className='navlinks' to='/contacts'>Contact</NavLink>
+                            <NavLink className='navlinks' to='/thetilekovich'>{language === 'ru' ? 'Домой' : 'Home'}</NavLink>
+                            <NavLink className='navlinks' to='/services'>{language === 'ru' ? 'Сервисы' : 'Services'}</NavLink>
+                            <NavLink className='navlinks' to='/projects'>{language === 'ru' ? 'Проекты' : 'Projects'}</NavLink>
+                            <NavLink className='navlinks' to='/about'>{language === 'ru' ? 'Обо мне' : 'About'}</NavLink>
+                            <NavLink className='navlinks' to='/contacts'>{language === 'ru' ? 'Контакты' : 'Contact'}</NavLink>
                         </nav>
                     </div>
                 </div>

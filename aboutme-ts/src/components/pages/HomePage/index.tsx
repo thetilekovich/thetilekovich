@@ -11,8 +11,10 @@ import Services from '../../Services';
 import Projects from '../../Projects';
 import Comments from '../../Comments';
 import Contact from '../../Contact';
+import { useSelector } from 'react-redux';
 
 const HomePage: React.FC = () => {
+    const { language } = useSelector((s: { language: { language: string } }) => s.language)
 
     return (
         <section id='home'>
@@ -24,15 +26,16 @@ const HomePage: React.FC = () => {
                 <div className='home flex justify-between items-center py-10    '>
                     <div className='home_wellcome_item flex justify-between items-center'>
                         <div className='home_title_container'>
-                            <h2 className='text-gray-400 text-bold text-3xl mb-5'>Frontend Engeneer</h2>
-                            <h1 className='font-extrabold text-6xl'>Tilek uulu Izat</h1>
+                            <h2 className='text-gray-400 text-bold text-3xl mb-5'>{language === 'ru' ? 'Frontend Engeneer' : 'Frontend Engeneer'}</h2>
+                            <h1 className='font-extrabold text-6xl'>{language === 'ru' ? 'Изат Тилек уулу' : 'Tilek uulu Izat'}</h1>
                             <div className='w-1/2 my-16 bg-white h-1'></div>
                             <p className='max-w-xs text-gray-500 mb-24'>
-                                Nothing is more important in life than the answer to the question of what do you do?
+                                {language === 'ru' ? 'Ничего в жизни не важнее чем ответ на вопрос чем ты занимаешься' : 'Nothing is more important in life than the answer to the question of what do you do?' }
                             </p>
+
                             <div className='flex items-center'>
-                                <Link className='home_title_container_link mr-2' to='/contacts'>Let's Talk</Link>
-                                <img  className='w-4' src={arrow} alt="" />
+                                <Link className='home_title_container_link mr-2' to='/contacts'>{language === 'ru' ? 'Связаться' : 'Let\'s Talk'}</Link>
+                                <img className='w-4' src={arrow} alt="" />
                             </div>
                         </div>
                         <div className='home_profile_img w-80'>
@@ -42,15 +45,15 @@ const HomePage: React.FC = () => {
 
                     <div className='home_info'>
                         <div className='home_info_item'>
-                            <h3>Years of Experience</h3>
+                            <h3>{language === 'ru' ? 'Опыт работы' : 'Years of Experience'}</h3>
                             <h1>0.8+</h1>
                         </div>
                         <div className='home_info_item'>
-                            <h3>Completed Project</h3>
+                            <h3>{language === 'ru' ? 'Проекты' : 'Completed Project'}</h3>
                             <h1>5+</h1>
                         </div>
                         <div className='home_info_item'>
-                            <h3>Client</h3>
+                            <h3>{language === 'ru' ? 'клиенты' : 'Client'}</h3>
                             <h1>1</h1>
                         </div>
                     </div>

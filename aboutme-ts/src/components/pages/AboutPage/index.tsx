@@ -3,9 +3,9 @@ import './style.css'
 import aboutImg from '../../../assets/Images/moscow.jpg'
 import SocialMedias from '../../SocialMedias';
 import { useSelector, useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { ADD_EMAIL, ADD_NAME, ADD_JOB, ADD_NEW_COMMENT } from '../../redux/actions';
 import axios from 'axios';
+
 
 const AboutPage: React.FC = () => {
     const { language } = useSelector((s: { language: { language: string } }) => s.language)

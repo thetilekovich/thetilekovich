@@ -1,5 +1,5 @@
 import React, { FC, ReactElement } from 'react';
-
+import { useSelector } from 'react-redux';
 interface IProjectItemProps {
     children: ReactElement,
     iframe: string,
@@ -10,6 +10,8 @@ interface IProjectItemProps {
 
 
 const ProjectItem: FC<IProjectItemProps> = ({ children, iframe, code, projectTitle }) => {
+    const { language } = useSelector((s: { language: { language: string } }) => s.language)
+
     return (
         <div className='projects_global_item'>
             <iframe className="projects_global_item_iframe" src={iframe}></iframe>
@@ -20,8 +22,8 @@ const ProjectItem: FC<IProjectItemProps> = ({ children, iframe, code, projectTit
                     { children}
                 </div>
                 <div className='projects_global_item_text_link flex justify-between'>
-                    <a target={'_blank'} href={iframe}>Visit Website</a>
-                    <a target={'_blank'} href={code}>See the code</a>
+                    <a target={'_blank'} href={iframe}>{language === 'ru' ? 'Посетитить сайт' : 'Visit Website'}</a>
+                    <a target={'_blank'} href={code}>{language === 'ru' ? 'Смотреть код' : '>See the code'}</a>
                 </div>
             </div>
 
