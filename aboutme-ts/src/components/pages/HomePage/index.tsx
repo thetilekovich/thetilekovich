@@ -12,8 +12,6 @@ import Projects from '../../Projects';
 import Comments from '../../Comments';
 import Contact from '../../Contact';
 
-
-
 const HomePage: React.FC = () => {
 
 
@@ -63,9 +61,9 @@ const HomePage: React.FC = () => {
             </div>
             <Links />
             <Services />
-            <Projects/>
-            <Comments/>
-            <Contact/>
+            <Projects />
+            <Comments />
+            <Contact />
         </section>
     );
 }

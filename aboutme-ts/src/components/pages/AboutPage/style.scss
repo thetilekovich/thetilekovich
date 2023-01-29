@@ -1,0 +1,302 @@
+#aboutpage {
+    .about_gen {
+        padding: 50px 0;
+
+        &_info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+            margin: 0 0 30px;
+            &_img {
+                margin: 0 80px 0 0;
+                &_item {
+                    max-width: 350px;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                }
+            }
+            &_content {
+                margin: 0 30px 0 0;
+                h1 {
+                    font-size: 40px;
+                    font-weight: 900;
+                }
+                p {
+                    font-size: 25px;
+                    color: rgb(158, 157, 157);
+                    margin: 0 0 20px 0;
+                }
+                ul {
+                    li {
+                        color: wheat;
+                        margin: 5px 0;
+                        font-size: 18px;
+                        font-weight: 300;
+
+                        span {
+                            font-weight: 600;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        &_subinfo {
+         
+            &_content {
+
+                display: flex;
+                justify-content: space-between;
+                h1 {
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin: 0 0 30px;
+                }
+                &_container{
+                    display: flex;
+                }
+                &_skills {
+                    display: flex;
+                    &_item {
+                        margin: 0 50px 0 0;
+                        h4 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: rgb(5, 217, 5);
+                            margin: 0 0 10px;
+                        }
+                        ul {
+                            color: rgb(171, 219, 102);
+                            span {
+                                color: orange;
+                            }
+                        }
+                    }
+                    &_item1 {
+                        margin: 0 30px 0 0;
+                        h4 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: rgb(255, 128, 0);
+                            margin: 0 0 10px;
+                        }
+                        ul {
+                            color: rgb(241, 177, 112);
+                        }
+                    }
+                }
+                &_resume {
+                    h1{
+                        font-size: 18px;
+                        margin: 0 0 10px 0;
+                    }
+                    a {
+                        font-size: 23px;
+                        color: rgb(171, 170, 170);
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+                &_comment {
+                    textarea {
+                        background: rgb(14, 13, 13);
+                        padding: 10px;
+                        margin: 10px 0;
+                    }
+                    input {
+                        margin: 10px 0;
+                        padding: 5px 10px;
+                        background: rgb(23, 23, 23);
+                    }
+                    button {
+                        background: rgb(33, 33, 33);
+                        width: 100px;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #aboutpage {
+        .about_gen {
+            &_info {
+                &_img {
+                    margin: 0 40px 0 0;
+                    &_item {
+                        max-width: 300px;
+                    }
+                }
+                &_social{
+                    display: none;
+                }
+                &_content {
+                    margin: 0;
+                    h1 {
+                        font-size: 35px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+                    ul {
+                       font-size: 15px;
+                    }
+                }
+            }
+            &_subinfo {
+               
+                &_content {
+                    flex-direction: column;
+                    &_container{
+                        justify-content: space-between;
+                        margin: 0 0 30px 0;
+                    }
+                    &_skills {
+                        &_item {
+                            margin: 0 50px 0 0;
+                            h4 {
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: rgb(5, 217, 5);
+                                margin: 0 0 10px;
+                            }
+                            ul {
+                                color: rgb(171, 219, 102);
+                                span {
+                                    color: orange;
+                                }
+                            }
+                        }
+                        &_item1 {
+                            margin: 0;
+                        }
+                    }
+                    &_comment{
+                        align-self: flex-end;
+                        max-width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    #aboutpage {
+        .about_gen {
+            &_info {
+                &_img {
+                    margin: 0 30px 0 0;
+                    &_item {
+                        max-width: 200px;
+                    }
+                }
+                &_content {
+                    h1 {
+                        font-size: 30px;
+                    }
+                    ul{
+                        li{
+                            color:wheat;
+                            font-weight: 600;
+                            span{
+                                font-weight: 400;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            &_subinfo {
+                &_content {
+                    &_container{
+                        justify-content: space-between;
+                        margin: 0 0 30px 0;
+                    }
+                    &_skills {
+                        &_item {
+                            margin: 0 50px 0 0;
+                            h4 {
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: rgb(5, 217, 5);
+                                margin: 0 0 10px;
+                            }
+                            ul {
+                                color: rgb(171, 219, 102);
+                                span {
+                                    color: orange;
+                                }
+                            }
+                        }
+                        &_item1 {
+                            margin: 0;
+                        }
+                    }
+                    &_resume {
+
+                        a {
+                            font-size: 20px;
+                            color: rgb(171, 170, 170);
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width: 540px){
+    #aboutpage {
+        .about_gen {
+            &_info {
+                grid-template-columns: 1fr;
+                &_img {
+                    margin: 0 0 20px 0;
+                    &_item {
+                        max-width: 70%;
+                    }
+                }
+                &_content {
+                    h1 {
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 25px;
+                    }
+                    ul{
+                        li{
+                            font-size: 15px;
+                            font-weight: 600;
+                            span{
+                                margin: 0 10px 0 0;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+            &_subinfo {
+                &_content {
+                    &_container{
+                        flex-direction: column;
+                        margin: 0 0 30px 0;
+                    }
+                    &_skills {
+                        margin: 0 0 30px ;
+                        &_item {
+                            margin: 0 50px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

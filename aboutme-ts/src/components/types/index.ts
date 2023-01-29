@@ -15,3 +15,9 @@ export interface IAction {
     type: string,
     payload: any
 }
+
+
+
+export interface ILanguage{
+    language: string
+}

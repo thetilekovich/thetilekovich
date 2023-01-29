@@ -1,1 +1,246 @@
-/*# sourceMappingURL=style.css.map */
+#aboutpage .about_gen {
+  padding: 50px 0;
+}
+#aboutpage .about_gen_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+#aboutpage .about_gen_info_img {
+  margin: 0 80px 0 0;
+}
+#aboutpage .about_gen_info_img_item {
+  max-width: 350px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#aboutpage .about_gen_info_content {
+  margin: 0 30px 0 0;
+}
+#aboutpage .about_gen_info_content h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+#aboutpage .about_gen_info_content p {
+  font-size: 25px;
+  color: rgb(158, 157, 157);
+  margin: 0 0 20px 0;
+}
+#aboutpage .about_gen_info_content ul li {
+  color: wheat;
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+#aboutpage .about_gen_info_content ul li span {
+  font-weight: 600;
+  color: white;
+}
+#aboutpage .about_gen_subinfo_content {
+  display: flex;
+  justify-content: space-between;
+}
+#aboutpage .about_gen_subinfo_content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+#aboutpage .about_gen_subinfo_content_container {
+  display: flex;
+}
+#aboutpage .about_gen_subinfo_content_skills {
+  display: flex;
+}
+#aboutpage .about_gen_subinfo_content_skills_item {
+  margin: 0 50px 0 0;
+}
+#aboutpage .about_gen_subinfo_content_skills_item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(5, 217, 5);
+  margin: 0 0 10px;
+}
+#aboutpage .about_gen_subinfo_content_skills_item ul {
+  color: rgb(171, 219, 102);
+}
+#aboutpage .about_gen_subinfo_content_skills_item ul span {
+  color: orange;
+}
+#aboutpage .about_gen_subinfo_content_skills_item1 {
+  margin: 0 30px 0 0;
+}
+#aboutpage .about_gen_subinfo_content_skills_item1 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 128, 0);
+  margin: 0 0 10px;
+}
+#aboutpage .about_gen_subinfo_content_skills_item1 ul {
+  color: rgb(241, 177, 112);
+}
+#aboutpage .about_gen_subinfo_content_resume h1 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+#aboutpage .about_gen_subinfo_content_resume a {
+  font-size: 23px;
+  color: rgb(171, 170, 170);
+}
+#aboutpage .about_gen_subinfo_content_resume a:hover {
+  color: white;
+}
+#aboutpage .about_gen_subinfo_content_comment textarea {
+  background: rgb(14, 13, 13);
+  padding: 10px;
+  margin: 10px 0;
+}
+#aboutpage .about_gen_subinfo_content_comment input {
+  margin: 10px 0;
+  padding: 5px 10px;
+  background: rgb(23, 23, 23);
+}
+#aboutpage .about_gen_subinfo_content_comment button {
+  background: rgb(33, 33, 33);
+  width: 100px;
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  #aboutpage .about_gen_info_img {
+    margin: 0 40px 0 0;
+  }
+  #aboutpage .about_gen_info_img_item {
+    max-width: 300px;
+  }
+  #aboutpage .about_gen_info_social {
+    display: none;
+  }
+  #aboutpage .about_gen_info_content {
+    margin: 0;
+  }
+  #aboutpage .about_gen_info_content h1 {
+    font-size: 35px;
+  }
+  #aboutpage .about_gen_info_content p {
+    font-size: 20px;
+  }
+  #aboutpage .about_gen_info_content ul {
+    font-size: 15px;
+  }
+  #aboutpage .about_gen_subinfo_content {
+    flex-direction: column;
+  }
+  #aboutpage .about_gen_subinfo_content_container {
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item {
+    margin: 0 50px 0 0;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(5, 217, 5);
+    margin: 0 0 10px;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item ul {
+    color: rgb(171, 219, 102);
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item ul span {
+    color: orange;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item1 {
+    margin: 0;
+  }
+  #aboutpage .about_gen_subinfo_content_comment {
+    align-self: flex-end;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #aboutpage .about_gen_info_img {
+    margin: 0 30px 0 0;
+  }
+  #aboutpage .about_gen_info_img_item {
+    max-width: 200px;
+  }
+  #aboutpage .about_gen_info_content h1 {
+    font-size: 30px;
+  }
+  #aboutpage .about_gen_info_content ul li {
+    color: wheat;
+    font-weight: 600;
+  }
+  #aboutpage .about_gen_info_content ul li span {
+    font-weight: 400;
+    color: white;
+  }
+  #aboutpage .about_gen_subinfo_content_container {
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item {
+    margin: 0 50px 0 0;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(5, 217, 5);
+    margin: 0 0 10px;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item ul {
+    color: rgb(171, 219, 102);
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item ul span {
+    color: orange;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item1 {
+    margin: 0;
+  }
+  #aboutpage .about_gen_subinfo_content_resume a {
+    font-size: 20px;
+    color: rgb(171, 170, 170);
+  }
+  #aboutpage .about_gen_subinfo_content_resume a:hover {
+    color: white;
+  }
+}
+@media screen and (max-width: 540px) {
+  #aboutpage .about_gen_info {
+    grid-template-columns: 1fr;
+  }
+  #aboutpage .about_gen_info_img {
+    margin: 0 0 20px 0;
+  }
+  #aboutpage .about_gen_info_img_item {
+    max-width: 70%;
+  }
+  #aboutpage .about_gen_info_content h1 {
+    font-size: 40px;
+  }
+  #aboutpage .about_gen_info_content p {
+    font-size: 25px;
+  }
+  #aboutpage .about_gen_info_content ul li {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #aboutpage .about_gen_info_content ul li span {
+    margin: 0 10px 0 0;
+    font-weight: 500;
+  }
+  #aboutpage .about_gen_subinfo_content_container {
+    flex-direction: column;
+    margin: 0 0 30px 0;
+  }
+  #aboutpage .about_gen_subinfo_content_skills {
+    margin: 0 0 30px;
+  }
+  #aboutpage .about_gen_subinfo_content_skills_item {
+    margin: 0 50px 0 0;
+  }
+}/*# sourceMappingURL=style.css.map */
