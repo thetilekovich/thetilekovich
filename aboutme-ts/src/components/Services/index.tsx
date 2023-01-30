@@ -40,7 +40,7 @@ const Services: React.FC = () => {
                                     <img className='services_item_img1 rounded-md w-14 mr-8' src={img2} alt="" />
                                     <div className='mr-8'>
                                         <h2 className='font-bold text-2xl'>{language === 'ru' ? 'Оптимизация' : 'Optimazing codes'}</h2>
-                                        <p className='text-gray-400'>10+ Project{language === 'ru' ? ' Проектов' : ' Projects'}</p>
+                                        <p className='text-gray-400'>10+{language === 'ru' ? ' Проектов' : ' Projects'}</p>
                                     </div>
                                 </div>
 

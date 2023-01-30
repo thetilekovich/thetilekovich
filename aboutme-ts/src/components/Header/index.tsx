@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import './style.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { CHANGE_LANGUAGE, SHOW_CHOSE, SHOW_MENU } from '../redux/actions';
+// import translate from '../../assets/Videos/Translate.mp4'
+import svg from '../../assets/Icons/translate.svg'
 
 const Header: React.FC = () => {
     const { showed } = useSelector((s: { menu: { showed: boolean } }) => s.menu)
@@ -30,9 +32,11 @@ const Header: React.FC = () => {
                         <Link to='/thetilekovich' className='font-extrabold text-2xl'>The Tilekovich</Link>
                         <div className='ml-5 mt-1 relative'>
                             <button
-                                className='text-gray-400'
+                            className='header_language_btn'
                                 onClick={showHide}
-                            >Язык - Language</button>
+                            >
+                                <img className='w-6' src={svg} alt="" />
+                            </button>
                             {
                                 showChose && <div className='absolute flex flex-col items-start'>
                                     <button

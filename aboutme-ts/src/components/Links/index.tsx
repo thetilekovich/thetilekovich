@@ -11,19 +11,18 @@ const Links: React.FC = () => {
             <div className='container'>
                 <div className='links flex justify-around mt-12'>
                     <div>
-                        <Link className='links_item' to='/'>UPWORK</Link>
+                        <a className='links_item' href='https://www.upwork.com/freelancers/~017ec798eb3ec99bfb?viewMode=1'>UPWORK</a>
                     </div>
                     <div>
-                        <Link className='links_item' to='/'>LinkedIn</Link>
+                        <a className='links_item' href='https://www.linkedin.com/in/izat-tilekovich-a1592a24a'>Linkedin</a>
 
                     </div>
                     <div>
-                        <Link className='links_item' to='/'>Indeed</Link>
+                        <a className='links_item' href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvkZCVrVzwHsnsTdCZpqTrZgTwjMrHjSSgNWJvjDcTJlljDpVCjClDDNqWddhKrFQshZSq'>GMAIL</a>
 
                     </div>
                     <div>
-                        <Link className='links_item' to='/'>Instagram</Link>
-
+                        <a className='links_item' href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhprzPJJDfxdbrbPzPXsmLSFmPQkZcLXPBhxcWTWvwWtbXXdKzPwWClrplhDRbWktkQQSC'>Yandex</a>
                     </div>
                 </div>
             </div>

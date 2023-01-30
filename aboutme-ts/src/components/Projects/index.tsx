@@ -9,10 +9,10 @@ const Projects: React.FC = () => {
         <section id='projects'>
             <div className='container'>
                 <div className='projects m-auto py-6 px-6 rounded-lg'>
-                    <header className='flex justify-between items-center'>
-                        <h1 className='text-3xl font-bold mb-6'>{language === 'ru' ? 'Мои проекты' : 'My Projects'}</h1>
+                    <header className='flex justify-between items-center mb-6'>
+                        <h1 className='text-3xl font-bold '>{language === 'ru' ? 'Мои проекты' : 'My Projects'}</h1>
                         <div className='flex items-center'>
-                            <Link className="mr-3" to='/projects'>{language === 'ru' ? 'Смотреть всех' : 'See all'}</Link>
+                            <Link className="mr-3" to='/projects'>{language === 'ru' ? 'Ещё' : 'See all'}</Link>
                             <img className='w-5' src={arrow} alt="" />
                         </div>
                     </header>
