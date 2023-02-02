@@ -1,0 +1,101 @@
+#servicespage .servicespage {
+  padding: 30px 0;
+}
+#servicespage .servicespage_title {
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+#servicespage .servicespage .services_global_items {
+  margin: 0 0 50px;
+}
+#servicespage .servicespage .services_global_items_service {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 30px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: 20px 0;
+  align-items: center;
+}
+#servicespage .servicespage .services_global_items_service_item img {
+  margin: 0 100px 0 0;
+  width: 180px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#servicespage .servicespage .services_global_items_service_item h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+#servicespage .servicespage .services_global_items_service_item p {
+  margin: 10px 0;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(184, 181, 181);
+  max-width: 500px;
+}
+#servicespage .servicespage .services_global_items_service_item ul {
+  margin: 0 0 0 20px;
+  list-style-type: disc;
+  font-size: 14px;
+  color: rgb(206, 125, 3);
+}
+#servicespage .servicespage .services_global_items_service_item ul span {
+  font-weight: 400;
+  color: rgb(255, 153, 0);
+}
+
+@media screen and (max-width: 725px) {
+  #servicespage .servicespage_title {
+    font-size: 30px;
+  }
+  #servicespage .servicespage .services_global_items_service_item img {
+    margin: 0 150px 0 0;
+    width: 180px;
+  }
+  #servicespage .servicespage .services_global_items_service_item h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #servicespage .servicespage .services_global_items_service_item p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: auto;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 570px) {
+  #servicespage .servicespage .services_global_items_service {
+    flex-direction: column;
+    align-items: center;
+  }
+  #servicespage .servicespage .services_global_items_service_item img {
+    margin: 0 0 30px 0;
+    width: 180px;
+  }
+  #servicespage .servicespage .services_global_items_service_item h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #servicespage .servicespage .services_global_items_service_item ul {
+    text-align: center;
+    list-style: none;
+  }
+  #servicespage .servicespage .services_global_items_service_item p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: auto;
+    max-width: 450px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
