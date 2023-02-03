@@ -1,5 +1,5 @@
 import * as React from 'react';
-import profile from '../../../assets/Images/home.jpg'
+import profile from '../../../assets/Images/moscow.jpg'
 import './style.css'
 import { Link } from 'react-router-dom';
 import topEffect from '../../../assets/Images/topvector.svg'

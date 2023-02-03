@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './style.css'
-import aboutImg from '../../../assets/Images/moscow.jpg'
+import aboutImg from '../../../assets/Images/home.jpg'
 import SocialMedias from '../../SocialMedias';
 import { useSelector, useDispatch } from 'react-redux';
 import { ADD_EMAIL, ADD_NAME, ADD_JOB, ADD_NEW_COMMENT } from '../../redux/actions';
