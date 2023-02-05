@@ -1,6 +1,5 @@
 import {applyMiddleware, combineReducers, createStore} from 'redux'
 import { ModeReducer } from './store/ModeReducer'
-import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
 import { MenuReducer } from './store/MenuReducer';
 import { SlideReducer } from './store/SlideReducer';
@@ -17,4 +16,4 @@ const rootReducer = combineReducers({
     comment: CommentInputReducer
 })
 
-export const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
+export const store = createStore(rootReducer, applyMiddleware(thunk))

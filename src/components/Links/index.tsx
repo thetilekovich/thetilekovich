@@ -11,18 +11,16 @@ const Links: React.FC = () => {
             <div className='container'>
                 <div className='links flex justify-around mt-12'>
                     <div>
-                        <a className='links_item' href='https://www.upwork.com/freelancers/~017ec798eb3ec99bfb?viewMode=1'>UPWORK</a>
+                        <a className='links_item' href='https://twitter.com/izat_it'>Twitter</a>
                     </div>
                     <div>
-                        <a className='links_item' href='https://www.linkedin.com/in/izat-tilekovich-a1592a24a'>Linkedin</a>
-
+                        <a className='links_item' href='https://www.linkedin.com/in/izat-tilekovich-a1592a24a'>LinkedIn</a>
                     </div>
                     <div>
-                        <a className='links_item' href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvkZCVrVzwHsnsTdCZpqTrZgTwjMrHjSSgNWJvjDcTJlljDpVCjClDDNqWddhKrFQshZSq'>GMAIL</a>
-
+                        <a className='links_item' href='https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvkZCVrVzwHsnsTdCZpqTrZgTwjMrHjSSgNWJvjDcTJlljDpVCjClDDNqWddhKrFQshZSq'>Gmail</a>
                     </div>
                     <div>
-                        <a className='links_item' href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhprzPJJDfxdbrbPzPXsmLSFmPQkZcLXPBhxcWTWvwWtbXXdKzPwWClrplhDRbWktkQQSC'>Yandex</a>
+                        <a className='links_item' href='https://github.com/thetilekovich'>GitHub</a>
                     </div>
                 </div>
             </div>
