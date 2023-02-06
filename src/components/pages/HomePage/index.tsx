@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
                 <div className='home flex justify-between items-center py-10    '>
                     <div className='home_wellcome_item flex justify-between items-center'>
                         <div className='home_title_container'>
-                            <h2 className='text-gray-400 text-bold text-3xl mb-5'>{language === 'ru' ? 'Frontend Engeneer' : 'Frontend Engeneer'}</h2>
+                            <h2 className='text-gray-400 text-bold text-2xl mb-5'>Frontend Engineer</h2>
                             <h1 className='font-extrabold text-6xl'>{language === 'ru' ? 'Изат Тилек уулу' : 'Tilek uulu Izat'}</h1>
                             <div className='w-1/2 my-16 bg-white h-1'></div>
                             <p className='max-w-xs text-gray-500 mb-24'>
@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
                                 <img className='w-4' src={arrow} alt="" />
                             </div>
                         </div>
-                        <div className='home_profile_img w-80'>
+                        <div className='home_profile_img w-96'>
                             <img className='w-full mx-10 rounded-xl' src={profile} alt="" />
                         </div>
                     </div>

@@ -4,7 +4,6 @@ import thunk from 'redux-thunk'
 import { MenuReducer } from './store/MenuReducer';
 import { SlideReducer } from './store/SlideReducer';
 import { LanguageReducer } from './store/LanguageReducer';
-import { IComment } from '../types';
 import { CommentInputReducer } from './store/CommentInputReducer';
 
 
