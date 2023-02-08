@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thetilekovich/static/css/main.0fdd8ed1.css",
-    "main.js": "/thetilekovich/static/js/main.4e8e8724.js",
+    "main.css": "/thetilekovich/static/css/main.28c44df3.css",
+    "main.js": "/thetilekovich/static/js/main.ba88e952.js",
     "static/media/service2.svg": "/thetilekovich/static/media/service2.5baaa36e67791858f295ad3a2500eb55.svg",
     "static/media/service3.svg": "/thetilekovich/static/media/service3.701fdb247b630a60310f06d179b44bc4.svg",
     "static/media/service1.svg": "/thetilekovich/static/media/service1.2eb837b0e9c35ec8e955d69f2ff609f4.svg",
@@ -13,22 +13,22 @@
     "static/media/creatweb.jpg": "/thetilekovich/static/media/creatweb.94df469fa55c5ee43cc4.jpg",
     "static/media/home.jpg": "/thetilekovich/static/media/home.1982be7cb466a49e7e5d.jpg",
     "static/media/translate.svg": "/thetilekovich/static/media/translate.d85c3fbf3061c5af0acb2412e1257b6c.svg",
-    "static/media/icon-Union.svg": "/thetilekovich/static/media/icon-Union.4e30f29e5afcfede15d99331f583dd2d.svg",
-    "static/media/icon-slack.svg": "/thetilekovich/static/media/icon-slack.6ac37b2539e2f010154fbce3b20452fe.svg",
     "static/media/vector2.svg": "/thetilekovich/static/media/vector2.4248bfbda7e8e25b2116c75935bced16.svg",
+    "static/media/icon-Union.svg": "/thetilekovich/static/media/icon-Union.ba3af283c30102c0938f0c3bc3206266.svg",
     "static/media/topvector.svg": "/thetilekovich/static/media/topvector.1d6825683f0ffe3620a6ae42386213b8.svg",
     "static/media/icon-linkedin.svg": "/thetilekovich/static/media/icon-linkedin.ff90d9b27f4eec306723c73b9693bf7b.svg",
     "static/media/bottomvector.svg": "/thetilekovich/static/media/bottomvector.7e421c9f4e390deaf19100eb7fbdfd1d.svg",
     "static/media/Effect.svg": "/thetilekovich/static/media/Effect.99931a39c9873c1cff49114c64987e7e.svg",
     "static/media/icon-gmail.svg": "/thetilekovich/static/media/icon-gmail.373c11030cad66e1a0687c50e1cb101e.svg",
+    "static/media/icon-slack.svg": "/thetilekovich/static/media/icon-slack.b87af9442d76ca6b5110f32b4b743821.svg",
     "index.html": "/thetilekovich/index.html",
     "static/media/icon-instagram.svg": "/thetilekovich/static/media/icon-instagram.1890d760ddf1b621b1a2f92b4d3008b7.svg",
     "static/media/vuesax-linear-vuesax-linear-arrow-right.svg": "/thetilekovich/static/media/vuesax-linear-vuesax-linear-arrow-right.c78ca7f2543e5ff813bcd3b3cd035e37.svg",
-    "main.0fdd8ed1.css.map": "/thetilekovich/static/css/main.0fdd8ed1.css.map",
-    "main.4e8e8724.js.map": "/thetilekovich/static/js/main.4e8e8724.js.map"
+    "main.28c44df3.css.map": "/thetilekovich/static/css/main.28c44df3.css.map",
+    "main.ba88e952.js.map": "/thetilekovich/static/js/main.ba88e952.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fdd8ed1.css",
-    "static/js/main.4e8e8724.js"
+    "static/css/main.28c44df3.css",
+    "static/js/main.ba88e952.js"
   ]
 }
