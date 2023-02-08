@@ -45,9 +45,7 @@
             }
         }
         &_subinfo {
-         
             &_content {
-
                 display: flex;
                 justify-content: space-between;
                 h1 {
@@ -55,7 +53,7 @@
                     font-weight: 700;
                     margin: 0 0 30px;
                 }
-                &_container{
+                &_container {
                     display: flex;
                 }
                 &_skills {
@@ -89,7 +87,7 @@
                     }
                 }
                 &_resume {
-                    h1{
+                    h1 {
                         font-size: 18px;
                         margin: 0 0 10px 0;
                     }
@@ -121,6 +119,19 @@
                         font-weight: 700;
                         padding: 8px 10px;
                         margin: 20px 0 0 0;
+                        transition: 0.3s;
+                        -webkit-transition: 0.3s;
+                        -moz-transition: 0.3s;
+                        -ms-transition: 0.3s;
+                        -o-transition: 0.3s;
+                        &:hover {
+                            background: rgb(0, 116, 0);
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -ms-border-radius: 5px;
+                            -o-border-radius: 5px;
+                        }
                     }
                 }
             }
@@ -138,7 +149,7 @@
                         max-width: 300px;
                     }
                 }
-                &_social{
+                &_social {
                     display: none;
                 }
                 &_content {
@@ -150,15 +161,14 @@
                         font-size: 20px;
                     }
                     ul {
-                       font-size: 15px;
+                        font-size: 15px;
                     }
                 }
             }
             &_subinfo {
-               
                 &_content {
                     flex-direction: column;
-                    &_container{
+                    &_container {
                         justify-content: space-between;
                         margin: 0 0 30px 0;
                     }
@@ -201,11 +211,11 @@
                     h1 {
                         font-size: 30px;
                     }
-                    ul{
-                        li{
-                            color:wheat;
+                    ul {
+                        li {
+                            color: wheat;
                             font-weight: 600;
-                            span{
+                            span {
                                 font-weight: 400;
                                 color: white;
                             }
@@ -215,7 +225,7 @@
             }
             &_subinfo {
                 &_content {
-                    &_container{
+                    &_container {
                         justify-content: space-between;
                         margin: 0 0 30px 0;
                     }
@@ -240,7 +250,6 @@
                         }
                     }
                     &_resume {
-
                         a {
                             font-size: 20px;
                             color: rgb(171, 170, 170);
@@ -254,7 +263,7 @@
         }
     }
 }
-@media screen and(max-width: 540px){
+@media screen and(max-width: 540px) {
     #aboutpage {
         .about_gen {
             &_info {
@@ -269,14 +278,14 @@
                     h1 {
                         font-size: 40px;
                     }
-                    p{
+                    p {
                         font-size: 25px;
                     }
-                    ul{
-                        li{
+                    ul {
+                        li {
                             font-size: 15px;
                             font-weight: 600;
-                            span{
+                            span {
                                 margin: 0 10px 0 0;
                                 font-weight: 500;
                             }
@@ -286,12 +295,12 @@
             }
             &_subinfo {
                 &_content {
-                    &_container{
+                    &_container {
                         flex-direction: column;
                         margin: 0 0 30px 0;
                     }
                     &_skills {
-                        margin: 0 0 30px ;
+                        margin: 0 0 30px;
                         &_item {
                             margin: 0 50px 0 0;
                         }

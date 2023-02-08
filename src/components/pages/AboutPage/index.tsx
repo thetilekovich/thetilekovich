@@ -112,6 +112,7 @@ const AboutPage: React.FC = () => {
                             <div className=' about_gen_subinfo_content_comment flex flex-col'>
                                 <h1>{language === 'ru' ? 'Оставить отзыв' : 'Leave feedback'}</h1>
                                 <textarea
+                                    placeholder={language === 'ru' ? 'Ваш отзыв сюда...' : 'Your feedback here...?'}
                                     value={comment}
                                     onChange={el => dispatch({ type: ADD_NEW_COMMENT, payload: el.target.value })}
                                     rows={5} cols={28}></textarea>
@@ -126,8 +127,9 @@ const AboutPage: React.FC = () => {
                                 <input
                                     value={job}
                                     onChange={el => dispatch({ type: ADD_JOB, payload: el.target.value })}
-                                    placeholder={language === 'ru' ? 'Чем вы занимаетесь?' : "What is your profession?"} type="text" />
+                                    placeholder={language === 'ru' ? 'Ваша профессия?' : "What is your profession?"} type="text" />
                                 <button
+
                                     onClick={handleSendClick}
                                 >{language === 'ru' ? 'Отправить' : 'Send'}</button>
                             </div>

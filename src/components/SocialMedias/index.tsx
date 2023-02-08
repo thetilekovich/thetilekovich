@@ -17,21 +17,21 @@ interface ISocialMediaProps{
 const SocialMedias: React.FC<ISocialMediaProps>= ({position, margin}) => {
     return (
             <nav className={position + ' social_items'}>
-                <Link  style={{margin: margin}} to='/'>
+                <a target='_blank' style={{margin: margin}} href='/https://twitter.com/izat_it'>
                     <img className='w-8' src={fb} alt="" />
-                </Link>
-                <Link style={{margin: margin}}  to='/'>
+                </a>
+                <a target='_blank' style={{margin: margin}}  href='https://mail.google.com/mail/u/0/#inbox?compose=sJwlqXSnzXdFvzvzvJbXJNSHBXPWTFLrdWSXtQXZZvFSnwxGBnvFvCWKhwqDpzjlnXHfvLQNcHSFnnSswRZqfmmTPSpkHhhdBfgpczNqFKbDxFCjVbdWfjFPDLcLBlGTKpqqpGMkxmGdrMzBmFWpbjcblTNFGWdLQ'>
                     <img  className='w-8'  src={gmail} alt="" />
-                </Link>
-                <Link  style={{margin: margin}} to='/'>
+                </a>
+                <a  target='_blank' style={{margin: margin}} href='https://www.instagram.com/izat.it/'>
                     <img  className='w-8'  src={instagram} alt="" />
-                </Link>
-                <Link  style={{margin: margin}} to='/'>
+                </a>
+                <a  target='_blank' style={{margin: margin}} href='https://www.linkedin.com/in/izat-tilekovich-a1592a24a'>
                     <img  className='w-8'  src={linkedin} alt="" />
-                </Link>
-                <Link style={{margin: margin}}  to='/'>
+                </a>
+                <a target='_blank' style={{margin: margin}} href='https://t.me/pleceofme'>
                     <img  className='w-8'  src={slack} alt="" />
-                </Link>
+                </a>
             </nav>
     );
 }
